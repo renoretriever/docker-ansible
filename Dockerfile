@@ -8,4 +8,4 @@ RUN set -x && \
         pip install ansible && \
         rm -rf /var/cache/apk/*
 
-WORKDIR /root/
+WORKDIR /tmp/
